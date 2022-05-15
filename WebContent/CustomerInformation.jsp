@@ -14,7 +14,7 @@
 <div class="container">
 		<div class="row">
 			<div class="col-6">
-				<h1>Add Customer</h1>
+				<h1>Customer Details</h1>
 				<form id="formCustomerInformation" name="formCustomerInformation">
 					Name: <input id="Name" name="Name"
 						type="text" class="form-control form-control-sm"> <br>
@@ -38,7 +38,7 @@
 					<input id="btnSave" name="btnSave" type="button" value="Save"
 						class="btn btn-primary"> <input type="hidden"
 						id="hideCustomerInformationIDSave" name="hideCustomerInformationIDSave" value="">
-						<h1>Customer Details</h1>
+						
 				</form>
 				<div id="alertSuccess" class="alert alert-success"></div>
 				<div id="alertError" class="alert alert-danger"></div>
